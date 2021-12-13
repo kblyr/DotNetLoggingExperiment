@@ -1,0 +1,5 @@
+namespace DotNetLogging;
+
+interface DotNetLoggingInternalSourceContext
+{
+}
