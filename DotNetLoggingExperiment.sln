@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{982131A4-9E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLogging", "src\DotNetLogging\DotNetLogging.csproj", "{31C8C920-88C5-48CE-8265-EBEC72BE3C3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLogging.WebApi", "src\DotNetLogging.WebApi\DotNetLogging.WebApi.csproj", "{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{31C8C920-88C5-48CE-8265-EBEC72BE3C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31C8C920-88C5-48CE-8265-EBEC72BE3C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31C8C920-88C5-48CE-8265-EBEC72BE3C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{31C8C920-88C5-48CE-8265-EBEC72BE3C3B} = {982131A4-9E78-433E-A913-C55FDF6B68A6}
+		{80898FFA-E260-46C6-88B6-3D7EDFBBC6AE} = {982131A4-9E78-433E-A913-C55FDF6B68A6}
 	EndGlobalSection
 EndGlobal
